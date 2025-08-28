@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-29T00:48:59 IST" name="Default suite" finished-at="2025-08-29T00:49:12 IST" duration-ms="12983">
+    <groups>
+    </groups>
+    <test started-at="2025-08-29T00:48:59 IST" name="Default test" finished-at="2025-08-29T00:49:12 IST" duration-ms="12983">
+      <class name="com.selenium.capstone.apiTesting">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:48:59 IST" name="beforeSuite" finished-at="2025-08-29T00:48:59 IST" duration-ms="398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="AddNewUser()[pri:1, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:48:59 IST" name="AddNewUser" finished-at="2025-08-29T00:49:03 IST" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+        <test-method signature="GetUserProfile()[pri:2, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:03 IST" name="GetUserProfile" finished-at="2025-08-29T00:49:04 IST" depends-on-methods="com.selenium.capstone.apiTesting.AddNewUser" duration-ms="949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserProfile -->
+        <test-method signature="UpdateUser()[pri:3, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:04 IST" name="UpdateUser" finished-at="2025-08-29T00:49:05 IST" depends-on-methods="com.selenium.capstone.apiTesting.AddNewUser" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="LoginUser()[pri:4, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:05 IST" name="LoginUser" finished-at="2025-08-29T00:49:06 IST" depends-on-methods="com.selenium.capstone.apiTesting.AddNewUser" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method signature="AddContact()[pri:5, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:06 IST" name="AddContact" finished-at="2025-08-29T00:49:07 IST" depends-on-methods="com.selenium.capstone.apiTesting.LoginUser" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method signature="GetContactList()[pri:6, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:07 IST" name="GetContactList" finished-at="2025-08-29T00:49:08 IST" depends-on-methods="com.selenium.capstone.apiTesting.AddContact" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContactList -->
+        <test-method signature="GetContact()[pri:7, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:08 IST" name="GetContact" finished-at="2025-08-29T00:49:09 IST" depends-on-methods="com.selenium.capstone.apiTesting.AddContact" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContact -->
+        <test-method signature="UpdateContact()[pri:8, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:09 IST" name="UpdateContact" finished-at="2025-08-29T00:49:10 IST" depends-on-methods="com.selenium.capstone.apiTesting.GetContact" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact -->
+        <test-method signature="UpdateContact1()[pri:9, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:10 IST" name="UpdateContact1" finished-at="2025-08-29T00:49:11 IST" depends-on-methods="com.selenium.capstone.apiTesting.UpdateContact" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact1 -->
+        <test-method signature="LogoutUser()[pri:10, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:11 IST" name="LogoutUser" finished-at="2025-08-29T00:49:12 IST" depends-on-methods="com.selenium.capstone.apiTesting.LoginUser" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.selenium.capstone.apiTesting@2d3379b4]" started-at="2025-08-29T00:49:12 IST" name="afterSuite" finished-at="2025-08-29T00:49:13 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.selenium.capstone.apiTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
