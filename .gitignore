@@ -1,0 +1,42 @@
+# =========================
+# Java / Maven / TestNG Project
+# =========================
+
+# Maven target folder
+target/
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+out/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Reports (Extent Reports, TestNG output, etc.)
+test-output/
+extent-reports/
+*.html
+
+# Screenshots (if you save failures/screenshots)
+screenshots/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
